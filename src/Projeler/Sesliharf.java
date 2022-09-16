@@ -3,7 +3,7 @@ package Projeler;
 public class Sesliharf {
     public static void main(String[] args) {
 
-        char harf='A';
+        char harf='E';
 
         switch (harf){
             case 'A':
@@ -12,7 +12,10 @@ public class Sesliharf {
             case 'U':
                 System.out.println("Kalın sesli harf");
                 break;
-            default:
+            case 'E':
+            case 'İ':
+            case 'Ö':
+            case 'Ü':
                 System.out.println("Ince sesli harf");
 
         }

@@ -1,6 +1,6 @@
 package Projeler;
 
-public class Ardisik_sayiler {
+public class Arkadas_sayilar {
     public static void main(String[] args) {
 
         int sayi1=220;
